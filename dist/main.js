@@ -1,1 +1,1 @@
-console.log("This works!");
+(()=>{"use strict";!function(){const e=document.querySelector("#content"),o=document.createElement("img");o.src="../logo.jpg",e.appendChild(o)}(),console.log("This works!")})();
