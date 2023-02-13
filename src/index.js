@@ -1,6 +1,7 @@
 import mainPage from "./mainPage";
 import menu from "./menu";
 import contact from "./contact";
+import logo from "./logo.jpg";
 
 mainPage();
 

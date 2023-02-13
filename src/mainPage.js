@@ -2,7 +2,8 @@ export default function mainPage() {
   const content = document.querySelector("#content");
   content.textContent = "";
   const img = document.createElement("img");
-  img.src = "../logo.jpg";
+  img.src =
+    "https://www.shutterstock.com/image-vector/pizza-shop-flat-vector-illustration-260nw-1586357821.jpg";
   content.appendChild(img);
 
   const h1 = document.createElement("h1");
