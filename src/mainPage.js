@@ -1,5 +1,6 @@
 export default function mainPage() {
   const content = document.querySelector("#content");
+  content.textContent = "";
   const img = document.createElement("img");
   img.src = "../logo.jpg";
   content.appendChild(img);
@@ -13,7 +14,8 @@ export default function mainPage() {
   content.appendChild(p1);
 
   const p2 = document.createElement("p");
-  p2.textContent = "Fresh ingredients - Original italian recipe - Made in brick oven";
+  p2.textContent =
+    "Fresh ingredients - Original italian recipe - Made in brick oven";
   content.appendChild(p2);
 
   const p3 = document.createElement("p");

@@ -5,12 +5,12 @@ mainPage();
 
 const homeBtn = document.querySelector("#home");
 homeBtn.addEventListener("click", () => {
-  alert("Hello World");
+  mainPage();
 });
 
 const menuBtn = document.querySelector("#menu");
 menuBtn.addEventListener("click", () => {
-  alert("Hello second");
+  menu();
 });
 
 // const menuButton = document.getElementById(menu);
