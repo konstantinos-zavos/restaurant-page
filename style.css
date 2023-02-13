@@ -14,7 +14,8 @@ body {
 
 header,
 ul,
-li {
+li,
+li>a {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -22,7 +23,13 @@ li {
     justify-content: center;
     gap: 10px;
     font-size: 5vh;
+    text-decoration: none;
+    color: black;
 }
 
+nav>ul>li {
+    border: 1px solid black;
+    padding: 10px;
+}
 
 
