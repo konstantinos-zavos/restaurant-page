@@ -1,5 +1,6 @@
 import mainPage from "./mainPage";
 import menu from "./menu";
+import contact from "./contact";
 
 mainPage();
 
@@ -13,5 +14,7 @@ menuBtn.addEventListener("click", () => {
   menu();
 });
 
-// const menuButton = document.getElementById(menu);
-// menuButton.onclick = menu();
+const contactBtn = document.querySelector("#contact");
+contactBtn.addEventListener("click", () => {
+  contact();
+});
